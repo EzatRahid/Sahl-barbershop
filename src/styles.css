@@ -1,0 +1,33 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.gradient1{
+    background:#b38859;
+}
+
+.height1{
+    height: calc(100vh - 92.5px);
+    font-family: 'Poppins', sans-serif;
+}
+
+.border{
+    border: 3px solid #b38859;
+}
+
+.bookborder{
+    border-bottom: 5px solid #b38859;
+}
+
+/* .shadownav{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background-color: #A88B6B;
+    border-radius: 15px;
+    transform: rotate(60deg);
+    overflow: hidden;
+    z-index: -10;
+} */
