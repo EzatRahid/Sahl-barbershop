@@ -21,6 +21,10 @@
     border-bottom: 5px solid #b38859;
 }
 
+.borderIcon{
+    border: 2px solid #b38859;
+}
+
 /* .shadownav{
     position: absolute;
     height: 500px;
