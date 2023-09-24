@@ -1,8 +1,18 @@
+/* styles.css */
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+/* Your custom styles go here */
 
+
+*{
+    scroll-behavior: smooth;
+}
+
+.aboutBorder{
+    border: 3px solid #b38859;
+}
 
 .gradient1{
     background:#b38859;
@@ -16,10 +26,14 @@
 .border{
     border: 3px solid #b38859;
 }
+.border2{
+    border: 3px solid #1E1D1C;
+}
 
 .bookborder{
     border-bottom: 5px solid #b38859;
 }
+
 
 .borderIcon{
     border: 2px solid #b38859;
@@ -35,3 +49,5 @@
     overflow: hidden;
     z-index: -10;
 } */
+
+
