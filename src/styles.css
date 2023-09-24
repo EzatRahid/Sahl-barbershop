@@ -48,8 +48,8 @@ a:hover{
     border: 2px solid #b38859;
 }
 
-.hidden{
-    
+.hide{
+    transform: translateY(-25px);
 }
 
 .show{

@@ -3,7 +3,7 @@ import sahl from '../sahl.png'
 
 const About = () => {
   return (
-    <div className='h-screen bg-[#1E1D1C] px-[150px] py-[30px] relative -z-50 flex flex-col items-center gap-20' id='about'>
+    <div className='h-screen bg-[#1E1D1C] px-[150px] py-[30px] relative  flex flex-col items-center gap-20 z-50' id='about'>
         <h1 className='text-white text-[40px] font-bold'><span className='bookborder'>ABOUT</span> THE GOAT</h1>
 
         <div className="flex gap-10">

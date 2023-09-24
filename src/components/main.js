@@ -33,7 +33,7 @@ const Main = () => {
   return (
 
     <div className="height1 bg-[#1E1D1C] flex flex-col items-center justify-center relative z-50" id="main">
-      <div className=" text-white mb-20">
+      <div className=" text-white mb-20 ">
         <p className="text-[25px]">YOUR OWN STYLE </p>
         <p className="text-[50px]">
           <span className="bookborder">BOOK </span>
