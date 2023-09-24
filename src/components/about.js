@@ -17,6 +17,14 @@ const About = () => {
                     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                          Harum magni architecto illo sit consequuntur accusamus autem quos, ex atque aliquam?</h2>
                 </div>
+                <div className="mb-[50px]">
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum veniam earum vero eius explicabo. Voluptate
+                        s deserunt quam fugiat, cupiditate, repudiandae doloribus quis maiores quidem, necessitatibus aut sunt architecto facere? Ab, 
+                        debitis odit placeat magnam ducimus in ipsa libero consequuntur at magni officia obcaecati velit rerum! Voluptatum doloremque 
+                        natus cum labore.
+
+                    </h2>
+                </div>
                 <div className="">
                     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum veniam earum vero eius explicabo. Voluptate
                         s deserunt quam fugiat, cupiditate, repudiandae doloribus quis maiores quidem, necessitatibus aut sunt architecto facere? Ab, 

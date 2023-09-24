@@ -23,7 +23,7 @@ const Main = () => {
           href="https://www.instagram.com/theclipperguru/?hl=en"
           target="_blank"
           rel="noopener noreferrer"
-          className="cursor-pointer"
+          className="cursor-pointer  "
         >
           <AiOutlineInstagram />
         </a>
@@ -31,7 +31,7 @@ const Main = () => {
           href="https://www.instagram.com/theclipperguru/?hl=en"
           target="_blank"
           rel="noopener noreferrer"
-          className="cursor-pointer"
+          className="cursor-pointer "
         >
           <BiLogoFacebook />
         </a>
