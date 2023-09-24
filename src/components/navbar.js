@@ -29,7 +29,7 @@ const Navbar = () => {
   }, [])
 
   return (
-    <div className='sticky top-0'>
+    <div className=' '>
     <div className='flex justify-around items-center p-5 text-white bg-[#b38859] '>
       <h1 className='text-[35px] cursor-pointer '><img src={logo} className='w-[100px] hide' /></h1>
       <ul className='flex gap-10 cursor-pointer uppercase hide'>
