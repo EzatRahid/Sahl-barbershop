@@ -8,6 +8,7 @@
 
 *{
     scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
 }
 
 a{
@@ -45,6 +46,14 @@ a:hover{
 
 .borderIcon{
     border: 2px solid #b38859;
+}
+
+.hidden{
+    
+}
+
+.show{
+
 }
 
 /* .shadownav{

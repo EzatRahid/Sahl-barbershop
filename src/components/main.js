@@ -1,10 +1,37 @@
 import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BiLogoFacebook } from "react-icons/bi";
+import { useEffect } from "react";
 
 
 const Main = () => {
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        entry.target.classList.toggle('show', entry.isIntersecting);
+        if (entry.isIntersecting) {
+          observer.unobserve(entry.target); // Corrected this line
+        }
+      });
+    });
+  
+    // Add your logic to select and observe elements here
+    // For example:
+    // const elementsToObserve = document.querySelectorAll('.your-elements');
+    // elementsToObserve.forEach((element) => {
+    //   observer.observe(element);
+    // });
+  
+    return () => {
+      // Cleanup when the component unmounts
+      observer.disconnect();
+    };
+  }, [])
+
+
+
   return (
+
     <div className="height1 bg-[#1E1D1C] flex flex-col items-center justify-center relative z-50" id="main">
       <div className=" text-white mb-20">
         <p className="text-[25px]">YOUR OWN STYLE </p>
