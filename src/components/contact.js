@@ -25,8 +25,7 @@ const Contact = () => {
         </div>
       <border className="bg-[#b38859] absolute h-[45px] w-[150px] right-[45.5%] top-[1%] -z-20"></border>
       <border className="bg-[#b38859] absolute h-[45px] w-[150px] left-[20.5%] top-[25%] -z-20"></border>
-      <border className="bg-[#b38859] absolute h-[45px] w-[150px] left-[20.5%] top-[25%] -z-20"></border>
-      <border className="bg-[#b38859] absolute h-[45px] w-[150px] left-[20.5%] top-[25%] -z-20"></border>
+      
    
   
       
